@@ -1,0 +1,43 @@
+nav img{
+	max-width: 64px;
+	max-height: 64px;
+	object-fit: scale-down;
+	border-radius: 50%;
+}
+main{
+	text-align: center;
+}
+#codes{
+	width: 95%;
+	min-height: 200px;
+	border-radius: 14px;
+	border: 1px solid rgb(56, 43, 43);
+}
+#buttons{
+	display: flex;
+justify-content: space-evenly;
+}
+#buttons button{
+	width: 43%;
+	border-radius: 12px;
+	border: 0px;
+	padding: 12px;
+}
+#remove{
+	background-color: red;
+	color: white;
+}
+#run{
+	background-color: rgb(6, 247, 66);
+	color: white;
+}
+#titel_result{
+	padding: 10px;
+	border-bottom: 2px solid  rgb(56, 43, 43);
+	font-weight: bold;
+	margin: 8px 0px;
+
+}
+#result{
+	max-width: 100% !important;
+}
